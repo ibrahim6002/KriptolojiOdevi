@@ -1,0 +1,153 @@
+@page
+@model EncryptionModel
+@{
+    ViewData["Title"] = "Şifreleme / Deşifreleme";
+}
+
+<div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold text-gray-900 mb-8">Şifreleme / Deşifreleme</h1>
+
+    <div class="bg-white rounded-lg shadow-md p-6 border border-gray-200 mb-8">
+        <h2 class="text-xl font-semibold text-blue-600 mb-4">AES Şifreleme</h2>
+        
+        <form method="post" class="space-y-6">
+            <!-- Şifreleme Modu -->
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Şifreleme Modu</label>
+                <select id="encryptionMode" name="encryptionMode" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                    @if (Model.EncryptionMode == "CBC") {
+                        <option value="CBC" selected>CBC - Güvenli blok zinciri modu</option>
+                        <option value="ECB">ECB - Elektronik kod kitabı modu</option>
+                    } else {
+                        <option value="CBC">CBC - Güvenli blok zinciri modu</option>
+                        <option value="ECB" selected>ECB - Elektronik kod kitabı modu</option>
+                    }
+                </select>
+                <div id="ecb-warning" class="hidden mt-2 text-yellow-700 bg-yellow-100 border border-yellow-300 rounded px-3 py-2 text-sm">
+                    ⚠️ ECB modu güvenli değildir, sadece test amaçlı kullanınız.
+                </div>
+            </div>
+
+            <!-- Anahtar Boyutu -->
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Anahtar Boyutu</label>
+                <select name="keySize" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                    @if (Model.KeySize == "128") {
+                        <option value="128" selected>128-bit</option>
+                        <option value="256">256-bit</option>
+                    } else {
+                        <option value="128">128-bit</option>
+                        <option value="256" selected>256-bit</option>
+                    }
+                </select>
+            </div>
+
+            <!-- Padding Modu -->
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Padding Modu</label>
+                <select name="paddingMode" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500">
+                    @if (Model.PaddingMode == "PKCS7") {
+                        <option value="PKCS7" selected>PKCS7 - Standart dolgu yöntemi</option>
+                        <option value="None">None - Dolgu yok</option>
+                    } else {
+                        <option value="PKCS7">PKCS7 - Standart dolgu yöntemi</option>
+                        <option value="None" selected>None - Dolgu yok</option>
+                    }
+                </select>
+            </div>
+
+            <!-- Metin Girişi -->
+            <div>
+                <label class="block text-sm font-medium text-gray-700 mb-2">Metin</label>
+                <textarea name="inputText" rows="4" class="w-full px-3 py-2 border border-gray-300 rounded-md shadow-sm focus:outline-none focus:ring-blue-500 focus:border-blue-500" placeholder="Şifrelenecek metni girin...">@Model.InputText</textarea>
+            </div>
+
+            <!-- Anahtar ve IV -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">Anahtar</label>
+                    <div class="flex">
+                        <input type="text" name="key" value="@Model.Key" class="flex-1 px-3 py-2 border border-gray-300 rounded-l-md bg-gray-50" />
+                        <button type="button" class="px-3 py-2 bg-gray-200 text-gray-600 hover:bg-gray-300 transition-colors" data-copy="key" title="Kopyala">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+                        </button>
+                        <button type="button" class="px-4 py-2 bg-blue-600 text-white rounded-r-md hover:bg-blue-700 transition-colors">
+                            Yeni
+                        </button>
+                    </div>
+                </div>
+                <div>
+                    <label class="block text-sm font-medium text-gray-700 mb-2">IV (Initialization Vector)
+                        <span id="iv-info" class="ml-1 text-xs text-gray-500">CBC modunda zorunlu, ECB modunda kullanılmaz.</span>
+                    </label>
+                    <div class="flex">
+                        <input type="text" id="iv" name="iv" value="@Model.IV" class="flex-1 px-3 py-2 border border-gray-300 rounded-l-md bg-gray-50" />
+                        <button type="button" class="px-3 py-2 bg-gray-200 text-gray-600 hover:bg-gray-300 transition-colors" data-copy="iv" title="Kopyala">
+                            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" /></svg>
+                        </button>
+                        <button type="button" id="iv-generate" class="px-4 py-2 bg-blue-600 text-white rounded-r-md hover:bg-blue-700 transition-colors">
+                            Yeni
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- İşlem Butonları -->
+            <div class="flex space-x-4">
+                <button type="submit" name="action" value="encrypt" class="flex-1 bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">
+                    Şifrele
+                </button>
+                <button type="submit" name="action" value="decrypt" class="flex-1 bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors">
+                    Deşifre Et
+                </button>
+            </div>
+
+            <!-- Sonuç Alanı (Formun içinde, butonlardan hemen sonra) -->
+            <div class="mt-6 bg-gray-50 rounded-md p-4 border border-gray-200">
+                <h3 class="text-lg font-semibold text-gray-900 mb-2">Sonuç</h3>
+                @if (!string.IsNullOrEmpty(Model.Result))
+                {
+                    <pre class="font-mono text-sm text-gray-800">@Model.Result</pre>
+                    <div class="mt-4 flex space-x-4">
+                        <button type="button" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors">
+                            Kopyala
+                        </button>
+                        <button type="button" class="px-4 py-2 bg-green-600 text-white rounded hover:bg-green-700 transition-colors">
+                            İndir
+                        </button>
+                    </div>
+                }
+                else
+                {
+                    <span class="text-gray-500">Henüz sonuç yok</span>
+                }
+            </div>
+        </form>
+    </div>
+</div>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const modeSelect = document.getElementById('encryptionMode');
+        const ivInput = document.getElementById('iv');
+        const ivButton = document.getElementById('iv-generate');
+        const ecbWarning = document.getElementById('ecb-warning');
+        const ivInfo = document.getElementById('iv-info');
+
+        function updateIVState() {
+            if (modeSelect.value === 'ECB') {
+                ivInput.disabled = true;
+                ivButton.disabled = true;
+                ecbWarning.classList.remove('hidden');
+                ivInfo.textContent = 'ECB modunda IV kullanılmaz.';
+            } else {
+                ivInput.disabled = false;
+                ivButton.disabled = false;
+                ecbWarning.classList.add('hidden');
+                ivInfo.textContent = 'CBC modunda zorunlu, ECB modunda kullanılmaz.';
+            }
+        }
+        modeSelect.addEventListener('change', updateIVState);
+        updateIVState();
+    });
+</script> 

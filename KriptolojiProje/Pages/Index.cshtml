@@ -1,0 +1,43 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<div class="max-w-4xl mx-auto">
+    <h1 class="text-3xl font-bold text-gray-900 mb-8">Kriptoloji Araçları</h1>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Şifreleme Kartı -->
+        <div class="bg-white rounded-lg shadow-md p-6 border border-gray-200">
+            <h2 class="text-xl font-semibold text-blue-600 mb-4">Şifreleme / Deşifreleme</h2>
+            <p class="text-gray-600 mb-4">
+                AES algoritması ile metinlerinizi güvenli bir şekilde şifreleyin ve deşifre edin.
+            </p>
+            <ul class="list-disc list-inside text-gray-600 mb-4">
+                <li>AES-128 ve AES-256 desteği</li>
+                <li>Çeşitli şifreleme modları (CBC, ECB)</li>
+                <li>Otomatik anahtar ve IV üretimi</li>
+            </ul>
+            <a href="/Encryption" class="inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors">
+                Şifreleme Araçlarına Git
+            </a>
+        </div>
+
+        <!-- Hash Kartı -->
+        <div class="bg-white rounded-lg shadow-md p-6 border border-gray-200">
+            <h2 class="text-xl font-semibold text-green-600 mb-4">Hash İşlemleri</h2>
+            <p class="text-gray-600 mb-4">
+                SHA algoritmaları ile metin ve dosyalarınızın özetini alın.
+            </p>
+            <ul class="list-disc list-inside text-gray-600 mb-4">
+                <li>SHA-1, SHA-256, SHA-384, SHA-512 desteği</li>
+                <li>Metin ve dosya hash işlemleri</li>
+                <li>Hexadecimal ve Base64 çıktı formatları</li>
+            </ul>
+            <a href="/Hash" class="inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors">
+                Hash Araçlarına Git
+            </a>
+        </div>
+    </div>
+</div>

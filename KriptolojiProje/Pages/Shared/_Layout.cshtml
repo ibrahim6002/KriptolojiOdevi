@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Kriptoloji Projesi</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+</head>
+<body class="bg-white">
+    <header class="bg-white shadow-sm">
+        <nav class="container mx-auto px-4 py-3">
+            <div class="flex justify-between items-center">
+                <a class="text-xl font-semibold text-blue-600" asp-area="" asp-page="/Index">Kriptoloji Projesi</a>
+                <div class="space-x-4">
+                    <a class="text-gray-600 hover:text-blue-600" asp-area="" asp-page="/Index">Ana Sayfa</a>
+                    <a class="text-gray-600 hover:text-blue-600" asp-area="" asp-page="/Encryption">Şifreleme</a>
+                    <a class="text-gray-600 hover:text-blue-600" asp-area="" asp-page="/Hash">Hash</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mx-auto px-4 py-8">
+        @RenderBody()
+    </main>
+
+    <footer class="bg-gray-50 border-t">
+        <div class="container mx-auto px-4 py-6">
+            <p class="text-center text-gray-600">&copy; 2025 - Kriptoloji Projesi</p>
+        </div>
+    </footer>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

@@ -1,0 +1,165 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Windows\\KriptolojiProje\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|c:\\users\\windows\\kriptolojiproje\\kriptolojiproje\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|solutionrelative:kriptolojiproje\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|c:\\users\\windows\\kriptolojiproje\\kriptolojiproje\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|solutionrelative:kriptolojiproje\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|c:\\users\\windows\\kriptolojiproje\\kriptolojiproje\\pages\\encryption.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|solutionrelative:kriptolojiproje\\pages\\encryption.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|c:\\users\\windows\\kriptolojiproje\\kriptolojiproje\\pages\\hash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|solutionrelative:kriptolojiproje\\pages\\hash.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|c:\\users\\windows\\kriptolojiproje\\kriptolojiproje\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|solutionrelative:kriptolojiproje\\pages\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|c:\\users\\windows\\kriptolojiproje\\kriptolojiproje\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|solutionrelative:kriptolojiproje\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|c:\\users\\windows\\kriptolojiproje\\kriptolojiproje\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|solutionrelative:kriptolojiproje\\pages\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|c:\\users\\windows\\kriptolojiproje\\kriptolojiproje\\pages\\encryption.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|solutionrelative:kriptolojiproje\\pages\\encryption.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|c:\\users\\windows\\kriptolojiproje\\kriptolojiproje\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3788954-6E7D-483B-9BF4-31A0DE22AA87}|KriptolojiProje\\KriptolojiProje.csproj|solutionrelative:kriptolojiproje\\pages\\index.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "KriptolojiProje\\Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "KriptolojiProje\\Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T00:05:17.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "KriptolojiProje\\Pages\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\Privacy.cshtml",
+              "RelativeToolTip": "KriptolojiProje\\Pages\\Privacy.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T00:04:56.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "KriptolojiProje\\Pages\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\_ViewImports.cshtml",
+              "RelativeToolTip": "KriptolojiProje\\Pages\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T00:04:50.912Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "KriptolojiProje\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\_ViewStart.cshtml",
+              "RelativeToolTip": "KriptolojiProje\\Pages\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T00:04:49.662Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Hash.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\Hash.cshtml",
+              "RelativeDocumentMoniker": "KriptolojiProje\\Pages\\Hash.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\Hash.cshtml",
+              "RelativeToolTip": "KriptolojiProje\\Pages\\Hash.cshtml",
+              "ViewState": "AgIAAEcAAAAAAAAAAAAAABIAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T23:58:12.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Encryption.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\Encryption.cshtml.cs",
+              "RelativeDocumentMoniker": "KriptolojiProje\\Pages\\Encryption.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\Encryption.cshtml.cs",
+              "RelativeToolTip": "KriptolojiProje\\Pages\\Encryption.cshtml.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAewH0AAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T23:00:59.27Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\Index.cshtml.cs",
+              "RelativeDocumentMoniker": "KriptolojiProje\\Pages\\Index.cshtml.cs",
+              "ToolTip": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\Index.cshtml.cs",
+              "RelativeToolTip": "KriptolojiProje\\Pages\\Index.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-09T22:25:14.85Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "KriptolojiProje\\Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\Index.cshtml",
+              "RelativeToolTip": "KriptolojiProje\\Pages\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-09T22:25:12.491Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Encryption.cshtml",
+              "DocumentMoniker": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\Encryption.cshtml",
+              "RelativeDocumentMoniker": "KriptolojiProje\\Pages\\Encryption.cshtml",
+              "ToolTip": "C:\\Users\\Windows\\KriptolojiProje\\KriptolojiProje\\Pages\\Encryption.cshtml",
+              "RelativeToolTip": "KriptolojiProje\\Pages\\Encryption.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-06-10T00:05:14.038Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
