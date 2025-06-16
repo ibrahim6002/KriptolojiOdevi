@@ -1,4 +1,4 @@
-Kriptoloji Web Uygulaması
+
 
 Bu proje, ASP.NET Core tabanlı statik bir web uygulamasıdır ve yalnızca grafik arayüz (GUI) içermektedir.
 Kullanıcıların AES şifreleme / deşifreleme ve SHA hash oluşturma işlemlerini kolayca gerçekleştirmelerini sağlar.
