@@ -3,19 +3,19 @@
 Bu proje, ASP.NET Core tabanlı statik bir web uygulamasıdır ve yalnızca grafik arayüz (GUI) içermektedir.
 Kullanıcıların AES şifreleme / deşifreleme ve SHA hash oluşturma işlemlerini kolayca gerçekleştirmelerini sağlar.
 
-📌 Özellikler
+## 📌 Özellikler
 
- UI/UX Tasarımı
+## UI/UX Tasarımı
 - Beyaz / Aydınlık Tema (Koyu renkler kullanılmamıştır)
 - Tailwind CSS ile modern ve kullanıcı dostu tasarım
 - Responsive arayüz (Mobil ve masaüstü uyumluluğu)
 - Yardımcı açıklamalar için tooltip ve info iconlar
   
-Ana Sayfa
+## Ana Sayfa
 ![kripto görsel 1](https://github.com/user-attachments/assets/feb6a82f-c5ae-4a7a-8b53-38c29fb824fb)
 Bu ekran, uygulamanın ana giriş sayfasını göstermektedir. Kullanıcılar burada AES şifreleme / deşifreleme ve SHA hash hesaplama işlemlerini gerçekleştirebilirler. Arayüz, sade ve okunabilir bir tasarıma sahiptir. Sağ üst köşede algoritma seçenekleri, orta bölümde işlem kartları, alt kısımda ise bilgilendirici açıklamalar ve yönlendirmeler bulunmaktadır. Kullanıcılar, bu bölümden şifreleme veya hash hesaplama modüllerine kolayca erişebilir.
 
-🔑 Şifreleme / Deşifreleme
+## 🔑 Şifreleme / Deşifreleme
 Kullanıcı, aşağıdaki AES algoritmalarını kullanarak metin şifreleyebilir ve çözebilir:
 AES (AES-128, AES-256)
 - Şifreleme Modları: CBC (varsayılan), ECB (uyarı ile birlikte)
@@ -48,7 +48,7 @@ Ekranın önemli detayları:
 - Kopyalama ve İndirme: Kullanıcı şifrelenmiş veya çözümlenmiş metni kaydedebilir
 
 
-🧾 SHA Hash Fonksiyonu
+## 🧾 SHA Hash Fonksiyonu
 Kullanıcı aşağıdaki SHA algoritmaları ile metin veya dosya için hash değeri oluşturabilir:
 - SHA-1 (160-bit) ⚠️ Güvenlik açısından zayıf
 - SHA-256 (256-bit) Modern uygulamalar için önerilir
@@ -65,7 +65,7 @@ SHA-256 (256-bit) hash işlemi gösteriliyor. Kullanıcı "TEST YAZI" metnini gi
 
 Hash sonuçları Hexadecimal veya Base64 formatında sunulabilir ve kopyalanabilir veya indirilebilir.
 
-📂 Dosya Hash Hesaplama
+## 📂 Dosya Hash Hesaplama
 - Kullanıcı PNG, JPG, PDF, TXT vb. dosyalarını yükleyerek hash değeri oluşturabilir.
 - Sürükleyip bırakma (Drag & Drop) desteği bulunmaktadır.
 ![kripto görsel 9](https://github.com/user-attachments/assets/7d1f98ac-b5f3-4958-a93c-ccaffeae58f3)
@@ -74,16 +74,16 @@ dosya tabanlı hash hesaplama işlemi gösteriliyor. Kullanıcı PNG, JPG, PDF, 
 
 
 
-📖 Kullanım Adımları
+## 📖 Kullanım Adımları
 - Şifreleme: Metni girin, algoritma seçeneklerini belirleyin ve "Şifrele" butonuna basın.
 - Deşifreleme: Şifrelenmiş metni girin, anahtar ve IV değerini belirleyin ve "Çöz" butonuna basın.
 - Hash Oluşturma: Metin girin veya dosya yükleyin, SHA algoritmasını seçin ve "Hash Hesapla" butonuna basın.
 - Sonuçları Kopyala / İndir: Hash veya şifreleme sonucunu kolayca alabilirsiniz.
 
-⚙️ Teknik Standartlar
+##⚙️ Teknik Standartlar
 - SOLID prensipleri ve C# kodlama standartlarına uygun geliştirme
 - Statik proje yapısı (Veritabanı bulunmamaktadır)
 - Katmanlı yapı (View, Controller, Service)
 
-📜 Lisans
+## 📜 Lisans
 Bu proje açık kaynak olarak paylaşılmaktadır. Kullanımı serbesttir ancak ticari amaçlar için uygunluğu kontrol edilmelidir.
