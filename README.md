@@ -87,14 +87,12 @@ dosya tabanlı hash hesaplama işlemi gösteriliyor. Kullanıcı PNG, JPG, PDF, 
 
 ## 🛠 Kurulum Adımları
 - Projeyi Klonla
-git clone https://github.com/ibrahim6002/KriptolojiOdevi.git
-cd KriptolojiOdevi
-- Bağımlılıkları Yükle
-Eğer Tailwind CSS veya ek UI kütüphaneleri kullanıyorsan, npm bağımlılıklarını yüklemek için:
-npm install
+  
+```git clone https://github.com/ibrahim6002/KriptolojiOdevi.git```
+```cd KriptolojiOdevi```
 - Uygulamayı Çalıştır
 ASP.NET Core uygulamasını başlatmak için:
-dotnet run
+```dotnet run```
 - Tarayıcıda Aç
 Başarıyla çalıştırıldığında, uygulama genellikle şu adreste açılır:
 https://localhost:7255
