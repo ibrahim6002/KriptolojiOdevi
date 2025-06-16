@@ -85,7 +85,7 @@ dosya tabanlı hash hesaplama işlemi gösteriliyor. Kullanıcı PNG, JPG, PDF, 
 - Statik proje yapısı (Veritabanı bulunmamaktadır)
 - Katmanlı yapı (View, Controller, Service)
 
-## 🛠 Kurulum Adımları
+## 🛠 Kurulum ve Çalıştırma Adımlar
 - Projeyi Klonla
   
 ```git clone https://github.com/ibrahim6002/KriptolojiOdevi.git```
@@ -95,7 +95,7 @@ dosya tabanlı hash hesaplama işlemi gösteriliyor. Kullanıcı PNG, JPG, PDF, 
 ASP.NET Core uygulamasını başlatmak için:
 ```dotnet run```
 - Tarayıcıda Aç
-Başarıyla çalıştırıldığında, uygulama genellikle şu adreste açılır:
+Başarıyla çalıştırıldığında, uygulama şu adreste açılır:
 https://localhost:7255
 
 
