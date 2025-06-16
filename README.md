@@ -85,5 +85,18 @@ dosya tabanlı hash hesaplama işlemi gösteriliyor. Kullanıcı PNG, JPG, PDF, 
 - Statik proje yapısı (Veritabanı bulunmamaktadır)
 - Katmanlı yapı (View, Controller, Service)
 
-## 📜 Lisans
-Bu proje açık kaynak olarak paylaşılmaktadır. Kullanımı serbesttir ancak ticari amaçlar için uygunluğu kontrol edilmelidir.
+## 🛠 Kurulum Adımları
+- Projeyi Klonla
+git clone https://github.com/ibrahim6002/KriptolojiOdevi.git
+cd KriptolojiOdevi
+- Bağımlılıkları Yükle
+Eğer Tailwind CSS veya ek UI kütüphaneleri kullanıyorsan, npm bağımlılıklarını yüklemek için:
+npm install
+- Uygulamayı Çalıştır
+ASP.NET Core uygulamasını başlatmak için:
+dotnet run
+- Tarayıcıda Aç
+Başarıyla çalıştırıldığında, uygulama genellikle şu adreste açılır:
+https://localhost:7255
+
+
