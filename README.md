@@ -89,7 +89,8 @@ dosya tabanlı hash hesaplama işlemi gösteriliyor. Kullanıcı PNG, JPG, PDF, 
 - Projeyi Klonla
   
 ```git clone https://github.com/ibrahim6002/KriptolojiOdevi.git```
-```cd KriptolojiOdevi```
+
+`cd KriptolojiOdevi`
 - Uygulamayı Çalıştır
 ASP.NET Core uygulamasını başlatmak için:
 ```dotnet run```
