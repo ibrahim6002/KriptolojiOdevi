@@ -80,7 +80,7 @@ dosya tabanlı hash hesaplama işlemi gösteriliyor. Kullanıcı PNG, JPG, PDF, 
 - Hash Oluşturma: Metin girin veya dosya yükleyin, SHA algoritmasını seçin ve "Hash Hesapla" butonuna basın.
 - Sonuçları Kopyala / İndir: Hash veya şifreleme sonucunu kolayca alabilirsiniz.
 
-##⚙️ Teknik Standartlar
+## ⚙️ Teknik Standartlar
 - SOLID prensipleri ve C# kodlama standartlarına uygun geliştirme
 - Statik proje yapısı (Veritabanı bulunmamaktadır)
 - Katmanlı yapı (View, Controller, Service)
