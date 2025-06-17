@@ -98,4 +98,4 @@ ASP.NET Core uygulamasını başlatmak için:
 Başarıyla çalıştırıldığında, uygulama şu adreste açılır:
 https://localhost:7255
 
-
+## Hazırlayan ibrahim NASIR
