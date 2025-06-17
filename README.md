@@ -13,7 +13,7 @@ Kullanıcıların AES şifreleme / deşifreleme ve SHA hash oluşturma işlemler
   
 ## Ana Sayfa
 ![kripto görsel 1](https://github.com/user-attachments/assets/feb6a82f-c5ae-4a7a-8b53-38c29fb824fb)
-Bu ekran, uygulamanın ana giriş sayfasını göstermektedir. Kullanıcılar burada AES şifreleme / deşifreleme ve SHA hash hesaplama işlemlerini gerçekleştirebilirler. Arayüz, sade ve okunabilir bir tasarıma sahiptir. Sağ üst köşede algoritma seçenekleri, orta bölümde işlem kartları, alt kısımda ise bilgilendirici açıklamalar ve yönlendirmeler bulunmaktadır. Kullanıcılar, bu bölümden şifreleme veya hash hesaplama modüllerine kolayca erişebilir.
+Bu ekran, uygulamanın ana giriş sayfasını göstermektedir. Kullanıcılar burada AES şifreleme / deşifreleme ve SHA hash hesaplama işlemlerini gerçekleştirebilirler. Sağ üst köşede algoritma seçenekleri, orta bölümde işlem kartları, alt kısımda ise bilgilendirici açıklamalar ve yönlendirmeler bulunmaktadır. Kullanıcılar, bu bölümden şifreleme veya hash hesaplama modüllerine kolayca erişebilir.
 
 ## 🔑 Şifreleme / Deşifreleme
 Kullanıcı, aşağıdaki AES algoritmalarını kullanarak metin şifreleyebilir ve çözebilir:
