@@ -6,7 +6,7 @@ Kullanıcıların AES şifreleme / deşifreleme ve SHA hash oluşturma işlemler
 ## 📌 Özellikler
 
 ## UI/UX Tasarımı
-- Beyaz / Aydınlık Tema (Koyu renkler kullanılmamıştır)
+- Beyaz / Aydınlık Tema 
 - Tailwind CSS ile modern ve kullanıcı dostu tasarım
 - Responsive arayüz (Mobil ve masaüstü uyumluluğu)
 - Yardımcı açıklamalar için tooltip ve info iconlar
