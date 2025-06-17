@@ -82,7 +82,7 @@ dosya tabanlı hash hesaplama işlemi gösteriliyor. Kullanıcı PNG, JPG, PDF, 
 
 ## ⚙️ Teknik Standartlar
 - SOLID prensipleri ve C# kodlama standartlarına uygun geliştirme
-- Statik proje yapısı (Veritabanı bulunmamaktadır)
+- Statik proje yapısı 
 - Katmanlı yapı (View, Controller, Service)
 
 ## 🛠 Kurulum ve Çalıştırma Adımlar
